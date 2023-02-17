@@ -3,7 +3,8 @@ import axios from "axios";
 import UserTable from "./UserTable";
 
 export const User = () => {
-  const serverUrl = process.env.REACT_APP_SERVER_URL
+  const serverUrl = "https://jsonplaceholder.typicode.com/users"
+  
   
   const [user, setUser] = useState([]);
 
