@@ -19,7 +19,7 @@ export const User = () => {
       .catch((err) => {
         console.log(err);
       }); 
-  }, []);
+  }, [serverUrl]);
 
   return (
     <>
